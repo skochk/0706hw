@@ -1,0 +1,12 @@
+html, body{
+    margin: 0 auto;
+}
+
+.moveBlock{
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    position: absolute;
+    z-index: 10;
+    margin: 0;
+}
