@@ -10,3 +10,16 @@ html, body{
     z-index: 10;
     margin: 0;
 }
+
+.area{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    position: absolute;
+}
+
+button{
+    position: absolute;
+    left: 600px;
+    right: 600px;
+}
