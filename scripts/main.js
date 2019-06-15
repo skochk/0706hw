@@ -23,7 +23,7 @@ addHeight.addEventListener('click', function(){
   area.style.height = area.offsetHeight + tempHeight + 'px';
 })
 
-  let move = function move(e) {
+  let move = function(e) {
     console.log('x = ' + ourBlock.offsetLeft  + ' y = ' + ourBlock.offsetTop);
     if(e.pageX > ourBlock.offsetWidth && e.pageX  < area.offsetWidth){
       ourBlock.style.left = e.pageX  + area.offsetLeft - ourBlock.offsetWidth + 'px';
